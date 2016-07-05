@@ -941,10 +941,10 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 6.5rem;
     letter-spacing: -1px;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-family: "Merriweather", serif;
     color: #fff;
 }
 
@@ -965,7 +965,7 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-title {
-    color: rgba(0,0,0,0.8);
+    color: #333;
 }
 
 .no-cover .page-description {
