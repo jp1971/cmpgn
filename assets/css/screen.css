@@ -857,33 +857,18 @@ body.nav-opened .nav {
 }
 
 .menu-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
     float: right;
     height: 38px;
-    padding: 0 15px;
-    border-style: solid;
-    border-width: 1px;
-    opacity: 1;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
     line-height: 35px;
-    white-space: nowrap;
-    border-radius: 3px;
-    transition: all 0.5s ease;
+    position: absolute;
+    top: 38px;
+    right: 25px;
 }
 .menu-button:before {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
-    margin-right: 6px;
-    position: relative;
+    // margin-right: 6px;
     top: 1px;
-}
-.menu-button:hover {
-    background: #fff;
 }
 .menu-button:focus {
     outline: 0;
@@ -900,11 +885,9 @@ body.nav-opened .nav {
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
-    border-color: #BFC8CD;
     color: #9EABB3;
 }
 .nav-closed .no-cover .menu-button:hover {
-    border-color: #555;
     color: #555;
 }
 
@@ -917,7 +900,7 @@ body.nav-opened .nav {
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
             transform: translate3D(94px, 0, 0);
-    transition: all 0.3s ease;
+    transition: all ;
 }
 
 .nav-opened .menu-button .word {
